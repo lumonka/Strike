@@ -1,0 +1,29 @@
+.product {
+    &__main-info {
+        @apply bg-white px-[25px] py-[25px] w-[524px] h-[250px] rounded-xl shadow;
+    }
+
+    &__title {
+        @apply text-center text-[21px];
+    }
+
+    &__price {
+        @apply flex justify-around text-[18px] mt-5 items-center;
+    }
+
+    &__price span {
+        @apply font-bold;
+    }
+
+    &__characteristic {
+        @apply flex justify-around text-[18px] mt-5 items-center;
+    }
+
+    &__characteristic span {
+        @apply font-bold;
+    }
+
+    &__offer-button {
+        @apply flex justify-center pt-5 text-[18px];
+    }
+}

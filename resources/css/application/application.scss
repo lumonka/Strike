@@ -1,0 +1,18 @@
+.app {
+    &__title {
+        font-size: 48px;
+        font-weight: 900;
+        letter-spacing: 2.88px;
+        line-height: 72px;
+        width: 558px;
+        margin-bottom: 41px;
+    }
+
+    &__subtitle {
+        color: #7c7c7c;
+        font-size: 24px;
+        font-weight: 500;
+        width: 450px;
+        margin-bottom: 65px;
+    }
+}

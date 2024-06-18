@@ -1,0 +1,33 @@
+.cart {
+    @apply bg-white;
+
+    &__raw {
+        @apply flex justify-center mx-auto;
+    }
+
+    &__raw td {
+        @apply p-4;
+    }
+
+    &__table {
+        @apply flex flex-col justify-center items-center;
+    }
+
+    &__table {
+        thead tr th {
+            @apply p-6;
+        }
+    }
+
+    &__table--empty {
+        @apply text-center font-bold text-2xl bg-white p-5 shadow
+    }
+}
+
+.btn-primary {
+    @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800
+}
+
+.btn-danger {
+    @apply focus:outline-none text-white hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900
+}
